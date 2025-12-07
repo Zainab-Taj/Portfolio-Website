@@ -257,7 +257,7 @@ a:focus, button:focus, .btn:focus {
 .site-header.nav-open .mobile-nav{
   display:block;
   background:var(--surface);
-  padding:12px;
+  padding:18px;
   border-radius:10px;
   box-shadow:var(--shadow);
   margin-top:6px;
@@ -344,4 +344,5 @@ a:focus, button:focus, .btn:focus {
     padding: 8px 10px;
   }
 }
+
 
