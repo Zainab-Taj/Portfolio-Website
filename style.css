@@ -261,6 +261,13 @@ a:focus, button:focus, .btn:focus {
 @keyframes fadeUp {
   to { opacity: 1; transform: translateY(0); }
 }
+.visitor-count {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 10px;
+  opacity: 0.8;
+}
 #backToTop {
   position: fixed;
   bottom: 25px;
