@@ -107,6 +107,10 @@ html,body{
   font-size:2rem;
   line-height:1.05;
 }
+.me-text {
+  padding-left: 8px;
+  padding-right: 8px;
+}
 .lead{
   color:var(--muted);
   margin:8px 0 18px 0;
