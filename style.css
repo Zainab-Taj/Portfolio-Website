@@ -33,10 +33,10 @@ html,body{
   line-height: 1.45;
   transition: background var(--transition), color var(--transition);
 }
-.container{
-  max-width: var(--max-width);
+.container {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: calc(var(--container-padding) * 0.9);
+  padding: 0 16px;
 }
 .site-header{
   position: sticky;
