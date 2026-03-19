@@ -152,5 +152,9 @@
       if (el) el.classList.add('fade-up');
     });
   });
-
+ fetch('https://api.countapi.xyz/hit/zainab-taj-portfolio/visits')
+    .then(res => res.json())
+    .then(res => {
+      document.getElementById('visits').innerText = res.value;
+    });
 })();
